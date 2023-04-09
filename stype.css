@@ -1,0 +1,227 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Charmonman', cursive;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    margin-top: 15px;
+    
+}
+
+.Fontleft{
+    display: flex;
+    flex-flow: row;
+    gap: 5px;
+    
+}
+
+.Fontright {
+    display: flex;
+    flex-flow: row;
+    gap: 15px;
+}
+
+.Bigboyreal{
+    display: flex;
+    width: 87%;
+    margin: auto;
+    /* background-color: rgb(48, 66, 234); */
+    flex-flow: column;
+    margin-top: 40px;
+}
+
+.Bigboy {
+    display: flex;
+    width: 100%;
+    /* background-color: aqua; */
+    justify-content: center;
+    
+}
+
+/* คลุมซ้ายขวา */
+.Bigboy2 {
+    display: flex;
+    width: 100%;
+    flex-flow: row;
+    /* justify-content: space-around; */
+    /* gap: 10px; */
+    justify-content: center;
+    margin-top: 40px;
+}
+
+/* ก้อนซ้าย */
+.Bigboy2left {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+
+}
+
+/* ก้อนขวา */
+.Bigboy2right {
+    /* background-color: bisque; */
+    width: 100%;
+    
+}
+
+.bbt {
+    margin-top: 20px;
+    font-size: 35px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+}
+
+.bbt1 {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    font-size: 25px;
+    gap: 410px;
+    margin-right: 10px;
+    
+}
+
+.bbt2 {
+    display: flex;
+    flex-flow: row;
+    gap: 10px;
+    margin-top: 25px ;
+    margin-bottom: 20px;
+}
+
+.bbt2 i {
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    /* background-color: red; */
+    margin-left: 10px;
+}
+
+.bbt201 input {
+    border-color: blueviolet;
+    border-radius: 10px;
+    width: 350px;
+    height: 50px;
+}
+
+.bbt202 input{
+    border-color: blueviolet;
+    border-radius: 10px;
+    width: 240px;
+    height: 50px;
+}
+
+.bbt3 {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    gap: 360px;
+    margin-right: 10px;
+    margin-top: 85px;
+}
+
+.bbt4{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.bbt4 input {
+    border-radius: 10px;
+    width: 625px;
+    height: 40px;
+}
+
+.Bigboy2right {
+    /* margin-bottom: 80px; */
+    height: 450px;
+    box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.33);
+    border-radius: 10px;
+}
+
+.Bigboy2leftbottom{
+    width: 95%;
+    height: 37vh;
+    display: flex;
+    flex-flow: row;
+    /* justify-content: space-around; */
+    gap: 20px;
+    /* background-color: rgb(54, 41, 41); */
+    margin-top: 10px;
+    box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.33);
+    border-radius: 10px;
+}
+
+/* ก้อนซ้าย บน*/
+.Bigboy2lefttop {
+    width: 95%;
+    height: 37vh;
+    display: flex;
+    flex-flow: row;
+    /* justify-content: space-around; */
+    gap: 20px;
+    /* background-color: rgb(54, 41, 41); */
+    box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.33);
+    border-radius: 10px;
+}
+
+.trash {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.colorbox1 {
+    display: flex;
+    flex-flow: column;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    /* margin: auto; */
+    justify-content: center;
+    text-align: left;
+    background-color: blueviolet;
+    gap: 25px ;
+    padding-left: 10px;
+    width: 250px;
+    border-radius: 10px;
+    
+}
+
+.textcolorbox {
+    width: 250px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    /* background-color: rgb(201, 16, 84); */
+    padding-left: 10px;
+    gap: 20px;
+    /* margin-left: 15px; */
+    
+}
+
+.textcolorbox .G{
+    /* background-color: blue; */
+    margin-bottom: 30px
+}
+
+
+
+
+/* .Bigboy2 {
+    display: flex;
+    width: 100%;
+    flex-flow: row;
+    
+}
+
+.Bigboy2left {
+    display: flex;
+    flex-flow: column;
+} */
+
